@@ -26,7 +26,7 @@ python mining.py
 ## Implementation of CLIPScope
 
 ### Datasets
-> Please refer to [MOS](https://github.com/deeplearning-wisc/large_scale_ood) to prepare the ImageNet-1K, iNaturalist, SUN, Places,and Textures.
+> Please refer to [MOS](https://github.com/deeplearning-wisc/large_scale_ood) to prepare the ImageNet-1K, iNaturalist, SUN, Places, and Textures.
 
 ### ID Labels
 > Please use the ImageNet-1K labels as the ID labels.
