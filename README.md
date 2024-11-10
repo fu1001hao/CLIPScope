@@ -8,46 +8,33 @@
 - CLIPScope.py
   > Our method
 
-## Implementation of the files
+## Implementation of mining.py
 
-### Setup device (GPU or CPU)
-Modify
-> cuda.py
+### Choose your own lexical database
+> The words need to be saved in a python list format.
 
-### Train a backdoored model
+### Modify mining.py
+> Make sure your saved words can be correctly read.
+
+### Mine OOD candidate labels
 Run
 
 ```
-python trainmnist.py
+python mining.py
 ```
 
-### Implement the defense
+## Implement CLIPScope
 
+### Datasets
+> Please refer to [MOS](https://github.com/deeplearning-wisc/large_scale_ood) to prepare the ImageNet-1K, iNaturalist, SUN, Places,and Textures.
+
+### ID Labels
+> Please use the ImageNet-1K labels as the ID labels.
+
+### Modify CLIPScope.py
+> Please ensure that the datasets and labels are read correctly.
+
+### Implementation
 ```
-python rob_sens_check.py
-```
-## Modification of the code
-
-### Different regions and noise
-
-Modify 
-> config.py
-
-### Load pre-trained models
-
-Modify the *load()* function in
-> rob_sense_check.py
-
-### Cite the Work
-
-```
-@ARTICLE{10187163,
-  author={Fu, Hao and Krishnamurthy, Prashanth and Garg, Siddharth and Khorrami, Farshad},
-  journal={IEEE Transactions on Information Forensics and Security}, 
-  title={Differential Analysis of Triggers and Benign Features for Black-Box DNN Backdoor Detection}, 
-  year={2023},
-  volume={18},
-  number={},
-  pages={4668-4680},
-  doi={10.1109/TIFS.2023.3297056}}
+python CLIPScope.py
 ```
