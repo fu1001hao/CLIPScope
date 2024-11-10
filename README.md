@@ -14,7 +14,7 @@
 > The words need to be saved in a python list format.
 
 ### Modify mining.py
-> Make sure your saved words can be correctly read.
+> Make sure that your saved words can be correctly read.
 
 ### Mine OOD candidate labels
 Run
@@ -23,7 +23,7 @@ Run
 python mining.py
 ```
 
-## Implement CLIPScope
+## Implementation of CLIPScope
 
 ### Datasets
 > Please refer to [MOS](https://github.com/deeplearning-wisc/large_scale_ood) to prepare the ImageNet-1K, iNaturalist, SUN, Places,and Textures.
